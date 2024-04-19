@@ -39,6 +39,7 @@ function Dashboard() {
           </div>
         </div>
         <br /><br /><br /><br />
+       
         <div className="charts-container">
           <canvas id="revenueGraph"></canvas>
           <canvas id="revenueSourcesPieChart"></canvas>

@@ -22,6 +22,7 @@ const Navbar = ({ children }) => {
         </a>
         <a href="/policies/policies.html">
           <img src="https://img.icons8.com/fluent/48/000000/user-male-circle.png" alt="User Icon" className="icon" />
+          
           Policies
         </a>
       </nav>
