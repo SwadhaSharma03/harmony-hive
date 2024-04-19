@@ -11,6 +11,10 @@ function App() {
         <Routes>
           <Route path='/' element={<Dashboard />} />
           <Route path='/policies' element={<Policies />} />
+          <Route path='/dashboard' element={<Dashboard/>}/>
+          {/* <Route path='./table' element={<Table/>}/> */}
+          {/* <Route path='./manageUser' element={<ManageUser/>}/> */}
+          {/* <Route path='./reports' element={<Reports/>}/> */}
           <Route path='/attendence' element={<Attendance />} />
         </Routes>
       </BrowserRouter>
