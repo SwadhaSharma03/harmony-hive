@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/navbar/Navbar'; // Correct import path
+import { Link } from 'react-router-dom';
 
 function Dashboard() {
   return (
@@ -27,10 +28,12 @@ function Dashboard() {
         </div>
         <br /><br />
         <div className="dashbrd">
+          <Link to='/attendence'>
           <div className="dashboard-item">
             <span className="serial-number"></span>
             <h3>Track Employee Attendance</h3>
           </div>
+          </Link>
           <div className="dashboard-item">
             <a href="./feedback/feedback.html">
               <span className="serial-number"></span>
@@ -39,7 +42,6 @@ function Dashboard() {
           </div>
         </div>
         <br /><br /><br /><br />
-       
         <div className="charts-container">
           <canvas id="revenueGraph"></canvas>
           <canvas id="revenueSourcesPieChart"></canvas>
