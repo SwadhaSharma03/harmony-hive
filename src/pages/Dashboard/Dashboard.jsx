@@ -1,6 +1,7 @@
 import React from 'react';
-import Navbar from '../components/navbar/Navbar'; // Correct import path
+import Navbar from '../../components/navbar/Navbar'; // Correct import path
 import { Link } from 'react-router-dom';
+import './Dashboard.css'
 
 function Dashboard() {
   return (

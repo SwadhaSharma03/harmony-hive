@@ -5,7 +5,7 @@ const Navbar = ({ children }) => {
   return (
     <div className="dash-body">
       <nav className="dash-nav" >
-        <a href="/dashboard">
+        <a href="/">
           <img src="https://img.icons8.com/fluent/48/000000/search.png" alt="Search Icon" className="icon" />
           Dashboard
         </a>

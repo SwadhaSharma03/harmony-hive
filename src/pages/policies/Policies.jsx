@@ -1,6 +1,7 @@
 import React from 'react';
 import './policies.css'; 
 import Navbar from '../../components/navbar/Navbar';
+import { Link } from 'react-router-dom';
 
 function Policies() {
   return (
@@ -30,7 +31,7 @@ function Policies() {
       </section>
 
       <footer>
-        <a href="../dashboard.html"><button>Go Back to Dashboard</button></a>
+        <Link to="/"><button>Go Back to Dashboard</button></Link>
         <p>&copy; 2024 Harmony Hive. All rights reserved.</p>
       </footer>
       </Navbar>
