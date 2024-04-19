@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Navbar = ({ children }) => {
   return (
@@ -20,11 +21,11 @@ const Navbar = ({ children }) => {
           <img src="https://img.icons8.com/fluent/48/000000/user-male-circle.png" alt="User Icon" className="icon" />
           Manage User
         </a>
-        <a href="/policies/policies.html">
+        <Link to='/policies'>
           <img src="https://img.icons8.com/fluent/48/000000/user-male-circle.png" alt="User Icon" className="icon" />
           
           Policies
-        </a>
+          </Link>
       </nav>
       <main className="dash-main">
         <header className="dash-header">
